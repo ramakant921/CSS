@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*Element selector*/
+        div{
+            /*background-color: red;*/
+        }
+        /*Class selector*/
+        .red{
+            background-color: orange;
+        }
+
+       /* ID selector */
+        #green{
+            background-color: green;
+        }
+
+        /* child selector */
+        div > p{
+            color: aliceblue;
+            background-color:white ;
+        }
+
+        /* descendent selector*/
+        div p{
+            color: antiquewhite;
+            background-color: white;
+        }
+
+        /* universal selector */
+        * {
+            margin: 0;
+            padding: 0px;
+        }
+        /*pseudo selector*/
+        a:visited{
+            color: aqua;
+        }
+        a:link{
+            color: bisque;
+        }
+        a:active{
+            background-color: red;
+        }
+        a:hover{
+            background-color: yellow;
+        }
+        p:first-child{
+            background-color: brown;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <main class="one">
+        <p>i am first</p>
+        <p>i am second</p>
+        <p>i am third</p>
+    </main>
+    <div class="red">
+        Hi am ramakant
+        <article>
+
+            <p>hey i am para</p>
+        </article>
+    </div>
+    <div id="green">
+        hey i am ramakant
+    </div>
+    <a href="https://google.com/"> Go to GOOGLE</a>
+    <a href="https://facebook.com/"> Go to FACEBOOK</a>
+</body>
+</html>
