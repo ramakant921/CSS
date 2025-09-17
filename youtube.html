@@ -2,25 +2,63 @@
 <html lang="en">
     <head>
         <title>YouTube.com clone</title>
-        <style>
 
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+
+        <style>
+            p{
+                font-family: Roboto,Arial;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
             .thumbnail{
                 width: 300px;
                 display: block;
+                height: 168.75px;
             }
             .search-bar{
                 display: block;
-
             }
             .video-title{
-                width: 300px;
-
+                margin-top: 0%;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-bottom: 12px;
             }
             .video-preview{
                 width: 300px;
                 display: inline-block;
                 vertical-align: top;
                 margin-right: 15px;
+            }
+            .channel-picture{
+                display: inline-block;
+                width: 50px;
+                vertical-align: top;
+            }
+            .video-info{
+                display: inline-block;
+                width: 200px;
+            }    
+            .profile-picture{
+                width: 90%;
+                border-radius: 80%;
+            }
+            .thumbnail-row{
+                margin-bottom: 12px;
+            }
+            .video-author,
+            video-stats{
+                font-size: 12px;
+                color: rgb(96,96,96);
+            }
+            .video-author{
+                margin-bottom: 4px;
             }
 
         </style>
@@ -30,11 +68,18 @@
         <input class="search-bar" type="text" placeholder="Search">
 
         <div class="video-preview">
-            <img class="thumbnail" src="thumbnails/bmw.jpg">
-
-            <p class="video-title">This is the <strong>Finest CAR </strong>in the World!!👌</p>
-            <p class="video-author">Ramakant Mishra</p>
-            <p class="video-stats">1000M views &#183; 2 days ago</p>
+            <div class="thumbnail-row">
+                <img class="thumbnail" src="thumbnails/bmw.jpg">
+            </div>
+            <div>
+                <div class="channel-picture">
+                    <img class="profile-picture" src="channel-picture/channel-1.jpg">
+                </div>
+                <div class="video-info">
+                    <p class="video-title">This is the <strong>Finest CAR </strong>in the World!!👌</p>
+                <p class="video-author">Ramakant Mishra</p>
+                <p class="video-stats">1000M views &#183; 2 days ago</p></div>
+            </div>
         </div>
 
         <div class="video-preview">
