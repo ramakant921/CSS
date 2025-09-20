@@ -36,16 +36,13 @@
                 vertical-align: top;
                 margin-right: 15px;
             }
+            .video-info-grid{
+                display: grid;
+                grid-template-columns: 50px 1fr;
+            }
             .channel-picture{
-                display: inline-block;
-                width: 50px;
-                vertical-align: top;
-                background-color: gray;
             }
             .video-info{
-                display: inline-block;
-                width: 245px;
-                background-color: gray;
             }    
             .profile-picture{
                 width: 90%;
@@ -69,41 +66,55 @@
         
         <input class="search-bar" type="text" placeholder="Search">
 
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/bmw.jpg">
-            </div>
-            <div>
-                <div class="channel-picture">
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/bmw.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
                     <img class="profile-picture" src="channel-picture/channel-1.jpg">
-                </div>
-                <div class="video-info">
+                    </div>
+                    <div class="video-info">
                     <p class="video-title">This is the <strong>Finest CAR </strong>in the World!!👌</p>
-                <p class="video-author">Ramakant Mishra</p>
-                <p class="video-stats">1000M views &#183; 2 days ago</p></div>
-            </div>
-        </div>
-
-
-        <div class="video-preview">
-            <div class="thumbnail-row">
-                <img class="thumbnail" src="thumbnails/car.jpg">
-            </div>
-            <div>
-                <div class="channel-picture">
-                    <img class="profile-picture" src="channel-picture/channel-2.jpg">
-                </div>
-                <div class="video-info">
-                     <p class="video-title">The Worlds most <strong>Lineast Car </strong>ever Present!</p>
                     <p class="video-author">Ramakant Mishra</p>
-                    <p class="video-stats">1000M views &#183; 5 days ago</p>
+                    <p class="video-stats">1000M views &#183; 2 days ago</p></div>
+                </div>
             </div>
+
+            
+
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/car.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                        <img class="profile-picture" src="channel-picture/channel-2.jpg">
+                    </div>
+                    <div class="video-info">
+                        <p class="video-title">The Worlds most <strong>Lineast Car </strong>ever Present!</p>
+                        <p class="video-author">Ramakant Mishra</p>
+                        <p class="video-stats">1000M views &#183; 5 days ago</p>
+                </div>
+            </div>
+
+            <div class="video-preview">
+                <div class="thumbnail-row">
+                    <img class="thumbnail" src="thumbnails/bmw.jpg">
+                </div>
+                <div class="video-info-grid">
+                    <div class="channel-picture">
+                    <img class="profile-picture" src="channel-picture/channel-1.jpg">
+                    </div>
+                    <div class="video-info">
+                    <p class="video-title">This is the <strong>Finest CAR </strong>in the World!!👌</p>
+                    <p class="video-author">Ramakant Mishra</p>
+                    <p class="video-stats">1000M views &#183; 2 days ago</p></div>
+                </div>
+            </div>
+            
         </div>
-
-
-
-
-       
-        
+ 
     </body>  
 </html> 

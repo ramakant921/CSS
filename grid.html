@@ -3,7 +3,7 @@
 <head>
     <title>Grid practice</title>
 </head>
-    <body>
+    <body style="padding-bottom: 1000px;">
         <div style="
             display: grid;
             grid-template-columns: 100px 100px;
@@ -39,7 +39,22 @@
             ">
             <div style="background-color: lightblue;">100px</div>
             <div style="background-color: lightpink;">1fr</div>
-            <div style="background-color: hotpink;">1fr</div>
+            <div style="background-color: hotpink;">2fr</div>
+        </div>
+
+        <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 40px;
+            ">
+            <div style="background-color: lightblue;height: 200px">1fr</div>
+            <div style="background-color: lightpink;height: 200px">1fr</div>
+            <div style="background-color: hotpink;height: 200px">1fr</div>
+            <div style="background-color: hotpink;height: 200px">1fr</div>
+            <div style="background-color: lightblue;height: 200px">1fr</div>
+            <div style="background-color: lightpink;height: 200px">1fr</div>
         </div>
     </body>
 </html>
